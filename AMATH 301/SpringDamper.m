@@ -10,7 +10,7 @@ d = .25;  % damping ratio
 % spring-mass-damper system
 A = [0 1; -w^2 -2*d*w];  % \dot{x} = Ax
 
-dt = 0.01;  % time step
+dt = 0.005;  % time step
 T = 10;     % amount of time to integrate
 
 x0 = [2; 0]; % initial condition (x=2, v=0)
